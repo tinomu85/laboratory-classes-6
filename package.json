@@ -1,10 +1,11 @@
 {
   "name": "laboratory-classes-6",
   "version": "1.0.0",
-  "description": "",
+  "description": "W trakcie pracy nad zadaniami (ćwiczeniami), będziecie spotykać się z różnymi pomocnikami, którzy będą wskazywać, co należy zrobić w danym fragmencie kodu. Im dalsze ćwiczenie, tym rzadziej będą się pojawiać. Oto krótka charakterystyka każdego z nich:",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "electron": "electron main.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,7 +16,8 @@
     "laboratory-classes-6": "file:"
   },
   "devDependencies": {
+    "electron": "^36.2.0",
     "nodemon": "^3.1.9"
-  }
+  },
+  "keywords": []
 }
-
